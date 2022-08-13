@@ -10,31 +10,19 @@ Hit /help for more information about this Bot
 
 
 HELP_MESSAGE = '''
-Hey! My name is {firstname}. I am a Link Shortener Bot, here to make your Work Easy and Help you to Earn more
-
-I have lots of handy features, such as 
-
-- [Hyperlink](https://t.me/{username})
-- Buttons convert support
-- Header and Footer Text support
-- Replace Username
-- Banner Image
 
 Helpful commands:
-
-- /start: Starts me! You've probably already used this.
-- /help: Sends this message; I'll tell you more about myself!
-
-If you have any bugs or questions on how to use me, contact to [@earnspace_bot](https://t.me/earnspace_bot).
-
-Below are some features I provide
-
 - /shortener_api
 - /header
 - /footer
 - /username
 - /banner_image
 - /me
+
+🤝 Help and bot not working so contact me :- [@earnspace_bot](https://t.me/earnspace_bot) @nitish7691.
+
+ℹ️ And how to use this bot and command so watch my video.
+
 '''
 
 
@@ -93,23 +81,23 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-- Shortener Website: {base_site}
+✳️ Shortener Website: {base_site}
 
-- {base_site} API: {shortener_api}
+✳️ {base_site} API: {shortener_api}
 
-- Username: @{username}
+✳️ Username: @{username}
 
-- Header Text: 
-{header_text}
+✳️ Header Text: 
+   {header_text}
 
-- Footer Text: 
-{footer_text}
+✳️ Footer Text: 
+   {footer_text}
 
-- Banner Image: {banner_image}
+✳️ Banner Image: {banner_image}
 """
 
 
-SHORTENER_API_MESSAGE = """To add or update your Shortner Website API, `/shortener_api api`
+SHORTENER_API_MESSAGE = """✅To add or update your Shortner Website API, `/shortener_api api`
             
 Ex: `/shortener_api 6LZq851sXofffPHugiKQq`
             
@@ -117,21 +105,21 @@ Shortener API of your preferred shortener API.
 
 Current Website: {base_site}
 
-Current Shortener API: `{shortener_api}`"""
+Current Shortener API: `{shortener_api}`✅"""
 
-HEADER_MESSAGE = """Reply to the Header Text You Want
+HEADER_MESSAGE = """✅Reply to the Header Text You Want
 
 This Text will be added to the top of every message caption or text
 
-To Remove Header Text: `/header remove`"""
+To Remove Header Text: `/header remove`✅"""
 
-FOOTER_MESSAGE = """Reply to the Footer Text You Want
+FOOTER_MESSAGE = """✅Reply to the Footer Text You Want
 
 This Text will be added to the bottom of every message caption or text
 
-To Remove Footer Text: `/footer remove`"""
+To Remove Footer Text: `/footer remove`✅"""
 
-USERNAME_TEXT = """Current Username: {username}
+USERNAME_TEXT = """✅Current Username: {username}
 
 Usage: `/username your_username`
 
@@ -140,9 +128,9 @@ For just removing the username from the post:
 
 This username will be automatically replaced with other usernames in the post
 
-To remove current username, `/username remove`"""
+To remove current username, `/username remove`✅"""
 
-BANNER_IMAGE = """Current Banner Image URL: {banner_image}
+BANNER_IMAGE = """✅Current Banner Image URL: {banner_image}
 
 Usage: `/banner_image image_url`
 
@@ -150,5 +138,5 @@ This image will be automatically replaced with other images in the post
 
 To remove custom image, `/banner_image remove`
 
-Eg: `/banner_image https://www.nicepng.com/png/detail/436-4369539_movie-logo-film.png`"""
+Eg: `/banner_image https://www.nicepng.com/png/detail/436-4369539_movie-logo-film.png`✅"""
 
