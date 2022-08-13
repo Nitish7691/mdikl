@@ -25,7 +25,7 @@ Helpful commands:
 - /start: Starts me! You've probably already used this.
 - /help: Sends this message; I'll tell you more about myself!
 
-If you have any bugs or questions on how to use me, contact to {owner}.
+If you have any bugs or questions on how to use me, contact to [@earnspace_bot](https://t.me/earnspace_bot).
 
 Below are some features I provide
 
