@@ -5,23 +5,27 @@ START_MESSAGE = '''👋Hello, {}
 𝗜 𝗖𝗮𝗻 𝗖𝗼𝗻𝘃𝗲𝗿𝘁 𝗟𝗶𝗻𝗸 𝗧𝗼 𝗦𝗵𝗼𝗿𝘁𝗟𝗶𝗻𝗸. 𝗦𝗲𝗻𝗱 𝗠𝗲 𝗔𝗻𝘆 𝗣𝗼𝘀𝘁 𝗪𝗶𝘁𝗵 𝗟𝗶𝗻𝗸𝘀 𝗔𝗻𝗱 𝗜 𝗪𝗶𝗹𝗹 𝗦𝗵𝗼𝗿𝘁𝗲𝗻 𝗔𝗹𝗹 𝗟𝗶𝗻𝗸𝘀 𝗜𝗻 𝗜𝘁 𝗖𝗼𝗻𝘃𝗲𝗿𝘁 𝘁𝗼 EarnSpace.
 
 ℹ️ 𝗔𝗻𝗱 𝗵𝗼𝘄 𝘁𝗼 𝘂𝘀𝗲 𝘁𝗵𝗶𝘀 𝗯𝗼𝘁 𝗮𝗻𝗱 𝗰𝗼𝗺𝗺𝗮𝗻𝗱 𝘀𝗼 𝘄𝗮𝘁𝗰𝗵 𝗺𝘆 𝘃𝗶𝗱𝗲𝗼.
-Hit /help for more information about this Bot
 '''
 
 
 HELP_MESSAGE = '''
 
-Helpful commands:
-- /shortener_api
-- /header
-- /footer
-- /username
-- /banner_image
-- /me
+Hello {}, I am Earnspace.in , Bulk Link Converter From Linked Earnspace.in Account, 
 
-🤝 Help and bot not working so contact me :- [@earnspace_bot](https://t.me/earnspace_bot) @nitish7691.
+1. Go To👉 https://Earnspace.in/member/tools/api
+2. Than Copy API Key
+3. Than Type /api than a single space than paste your API Key (see example to understand more...)
 
-ℹ️ And how to use this bot and command so watch my video.
+To Link Your Earnspace.in Account : Just Type 👇 
+ /api<space>API Key 
+(See Example.👇)
+
+Example:
+/api 9b5201e8bae421fc5adbc54078be8958016318b49 
+
+Anyone who want to use any our shortner thay are contact us at 👉 @earnspace_bot @nitish7691
+
+- Message @earnspace_bot For More Help -
 
 '''
 
@@ -47,7 +51,7 @@ ABOUT_TEXT = """
 HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 
     [
-        InlineKeyboardButton('Home', callback_data='start_command')
+        InlineKeyboardButton('🏠 Home', callback_data='start_command')
     ]
 ])
 
@@ -55,16 +59,16 @@ HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 ABOUT_REPLY_MARKUP = InlineKeyboardMarkup([
     [
         InlineKeyboardButton('Home', callback_data=f'start_command'),
-        InlineKeyboardButton('Help', callback_data=f'help_command')
+        InlineKeyboardButton('📀 Help', callback_data=f'help_command')
     ],
     [
-        InlineKeyboardButton('Close', callback_data='delete')
+        InlineKeyboardButton('❌ Close', callback_data='delete')
     ]
 ])
 
 START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('Help', callback_data=f'help_command'),
+        InlineKeyboardButton('📀 Help', callback_data=f'help_command'),
         
     ],
         [
@@ -81,7 +85,7 @@ START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
 
 BACK_REPLY_MARKUP = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('Back', callback_data=f'start_command')
+        InlineKeyboardButton('🫥 Back', callback_data=f'start_command')
     ],
 
 ])
