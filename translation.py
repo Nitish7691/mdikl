@@ -27,14 +27,20 @@ Helpful commands:
 
 
 ABOUT_TEXT = """
-**My Details:**
+📍 My all bot settings in bot command and my most best command list.
 
-`🤖 Name:` ** {} **
-    
-`📝 Language:` [Python 3](https://www.python.org/)
-`🧰 Framework:` [Pyrogram](https://github.com/pyrogram/pyrogram)
-`👨‍💻 Developer:` [Dev](t.me/ask_admin001)
-`📢 Support:` {}
+/header - set header text and click on command check out more info.
+
+/footer - set footer text and click on command check out more info.
+
+/username - set username and click on command check out more info.
+
+/banner_image - set banner img and click on command check out more info.
+
+/me - your account information and on|off all settings.
+
+ℹ️ And how to use this bot and command so watch my video.
+:-https://youtu.be/lpzEll82EQc
 """
 
 
@@ -62,11 +68,11 @@ START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
         
     ],
         [
-        InlineKeyboardButton('About', callback_data='about_command'),
-        InlineKeyboardButton('Close', callback_data='delete')
+        InlineKeyboardButton('⚙️ Settings', callback_data='about_command'),
+        InlineKeyboardButton('❤️ Channel', url='https://t.me/earnspaceofficial')
     ],
             [
-        InlineKeyboardButton('Connect', url='https://earnspace.in/member/tools/api'),
+        InlineKeyboardButton('♉️ Connect To Earnspace', url='https://earnspace.in/member/tools/api'),
     ],
 
 
@@ -87,11 +93,9 @@ USER_ABOUT_MESSAGE = """
 
 ✳️ Username: @{username}
 
-✳️ Header Text: 
-   {header_text}
+✳️ Header Text: {header_text}
 
-✳️ Footer Text: 
-   {footer_text}
+✳️ Footer Text: {footer_text}
 
 ✳️ Banner Image: {banner_image}
 """
@@ -99,44 +103,44 @@ USER_ABOUT_MESSAGE = """
 
 SHORTENER_API_MESSAGE = """✅To add or update your Shortner Website API, `/shortener_api api`
             
-Ex: `/shortener_api 6LZq851sXofffPHugiKQq`
+✳️Ex: `/shortener_api 6LZq851sXofffPHugiKQq`
             
-Shortener API of your preferred shortener API.
+✳️Shortener API of your preferred shortener API.
 
-Current Website: {base_site}
+✳️Current Website: {base_site}
 
-Current Shortener API: `{shortener_api}`✅"""
+✳️Current Shortener API: `{shortener_api}`"""
 
 HEADER_MESSAGE = """✅Reply to the Header Text You Want
 
-This Text will be added to the top of every message caption or text
+✳️This Text will be added to the top of every message caption or text
 
-To Remove Header Text: `/header remove`✅"""
+✳️To Remove Header Text: `/header remove`"""
 
 FOOTER_MESSAGE = """✅Reply to the Footer Text You Want
 
-This Text will be added to the bottom of every message caption or text
+✳️This Text will be added to the bottom of every message caption or text
 
-To Remove Footer Text: `/footer remove`✅"""
+✳️To Remove Footer Text: `/footer remove`"""
 
 USERNAME_TEXT = """✅Current Username: {username}
 
-Usage: `/username your_username`
+✳️Usage: `/username your_username`
 
-For just removing the username from the post: 
+✳️For just removing the username from the post: 
 `/username none`
 
-This username will be automatically replaced with other usernames in the post
+✳️This username will be automatically replaced with other usernames in the post
 
-To remove current username, `/username remove`✅"""
+✳️To remove current username, `/username remove`"""
 
 BANNER_IMAGE = """✅Current Banner Image URL: {banner_image}
 
-Usage: `/banner_image image_url`
+✳️Usage: `/banner_image image_url`
 
-This image will be automatically replaced with other images in the post
+✳️This image will be automatically replaced with other images in the post
 
-To remove custom image, `/banner_image remove`
+✳️To remove custom image, `/banner_image remove`
 
-Eg: `/banner_image https://www.nicepng.com/png/detail/436-4369539_movie-logo-film.png`✅"""
+✳️Eg: `/banner_image https://www.nicepng.com/png/detail/436-4369539_movie-logo-film.png`"""
 
