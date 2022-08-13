@@ -72,7 +72,6 @@ ABOUT_REPLY_MARKUP = InlineKeyboardMarkup([
 
 START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('Copyrighted Links', callback_data='anc_command'),
         InlineKeyboardButton('Help', callback_data=f'help_command'),
         
     ],
@@ -81,7 +80,7 @@ START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
         InlineKeyboardButton('Close', callback_data='delete')
     ],
             [
-        InlineKeyboardButton('Connect', url='https://jdisk.in/member/tools/api'),
+        InlineKeyboardButton('Connect', url='https://earnspace.in/member/tools/api'),
     ],
 
 
