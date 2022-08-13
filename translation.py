@@ -9,22 +9,10 @@ START_MESSAGE = '''👋Hello, {}
 
 
 HELP_MESSAGE = '''
-Hello {}, I am Earnspace.in , Bulk Link Converter From Linked Earnspace.in Account, 
+🤝 Help and bot not working Then contact me :-@earnspace_bot @nitish7691
 
-1. Go To👉 https://Earnspace.in/member/tools/api
-2. Than Copy API Key
-3. Than Type /api than a single space than paste your API Key (see example to understand more...)
-
-To Link Your Earnspace.in Account : Just Type 👇 
- /api<space>API Key 
-(See Example.👇)
-
-Example:
-/api 9b5201e8bae421fc5adbc54078be8958016318b49 
-
-Anyone who want to use any our shortner thay are contact us at 👉 @earnspace_bot @nitish7691
-
-- Message @earnspace_bot For More Help -
+ℹ️ And how to use this bot and command so watch my video.
+:-
 '''
 
 
@@ -42,7 +30,7 @@ ABOUT_TEXT = """
 /me - your account information and on|off all settings.
 
 ℹ️ And how to use this bot and command so watch my video.
-:-https://youtu.be/lpzEll82EQc
+:-
 """
 
 
@@ -66,7 +54,7 @@ ABOUT_REPLY_MARKUP = InlineKeyboardMarkup([
 
 START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('📀 Help', callback_data=f'help_command'),
+        InlineKeyboardButton('Help', callback_data=f'help_command'),
         
     ],
         [
