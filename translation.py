@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 START_MESSAGE = '''Hello, {}
 
-I'm a Bot to Short Other Links to jdisk.in Links by Using your API. 
+I'm a Bot to Short Other Links to earnspace.in Links by Using your API. 
 
 Just Send me Any Post with Other Links. I will Convert Those Links Using Your API and Send them Back To You
 
@@ -29,7 +29,14 @@ Helpful commands:
 
 If you have any bugs or questions on how to use me, contact to {owner}.
 
-Below are some features I provide'''
+Below are some features I provide
+
+- /header
+- /footer
+- /username
+- /banner_image
+- /me
+'''
 
 
 ABOUT_TEXT = """
