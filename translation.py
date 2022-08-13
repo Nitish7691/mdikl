@@ -57,7 +57,7 @@ HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 ABOUT_REPLY_MARKUP = InlineKeyboardMarkup([
     [
         InlineKeyboardButton('Home', callback_data=f'start_command'),
-        InlineKeyboardButton('📀 Help', callback_data=f'help_command')
+        InlineKeyboardButton('Help', callback_data=f'help_command')
     ],
     [
         InlineKeyboardButton('❌ Close', callback_data='delete')
