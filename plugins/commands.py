@@ -37,15 +37,12 @@ async def start(c:Client, m:Message):
 
 @Client.on_message(filters.command('help') & filters.private)
 async def help_command(c, m: Message):
-    cmds = "\n\nAvailable commands:\n\n"
-    for x in user_commands:
-        cmds+=f"- /{x}\n"
-    cmds += "\nUse the commands to know more about the same"
+
 
     s = HELP_MESSAGE.format(
                 firstname=temp.FIRST_NAME,
                 username=temp.BOT_USERNAME,
-                owner="@ask_admin001" )+ cmds
+                owner="@ask_admin001" )
 
     if WELCOME_IMAGE:
         return await m.reply_photo(photo=WELCOME_IMAGE, caption=s)
