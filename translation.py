@@ -31,6 +31,7 @@ If you have any bugs or questions on how to use me, contact to {owner}.
 
 Below are some features I provide
 
+- /shortener_api
 - /header
 - /footer
 - /username
