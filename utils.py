@@ -118,6 +118,11 @@ async def replace_username(text, username):
         usernames = re.findall("([@#][A-Za-z0-9_]+)", text)
         for i in usernames:
             text = text.replace(i, replace_text)
+        
+        pvt_links = re.findall('https?://t.me+.*', text)
+        for i in pvt_links:
+            text = text.replace(i, f"@{username}")
+            
     return text
     
 
